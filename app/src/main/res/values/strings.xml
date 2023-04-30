@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Inventory</string>
+    <string name="add_p">Add Product</string>
+    <string name="Home">Home</string>
+    <string name="Photos">Photos</string>
+    <string name="Profile">Profile</string>
+    <string name="Contact">Contact</string>
+    <string name="help">help &amp; FAQ</string>
+    <string name="rate">Rate</string>
+    <string name="share">Share</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string-array name="category">
+        <item>Who are You</item>
+        <item>Admin</item>
+        <item>Seller</item>
+        <item>Producer</item>
+        <item>Consumer</item>
+    </string-array>
+
+    //signUp
+    <string name="signUpMsg">Please SignUp to Login</string>
+    <string name="usernameHint">Email / Username</string>
+    <string name="username2Hint">Enter Email or Username</string>
+    <string name="passwordHint">Enter new Password</string>
+    <string name="c_passwordHint">Conform password</string>
+    <string name="signUp"> Sign Up</string>
+    <string name="loginRedirect">Already have an account ? </string>
+    <string name="Login"> Login</string>
+
+    //Login
+    <string name="loginMsg">Please Login to Enter</string>
+    <string name="loginPassword">Enter Your Password</string>
+    <string name="SignUpRedirect">Don\'t have an account ? </string>
+
+    //SetProfile
+    <string name="continueP">Continue Profile</string>
+    <string name="nameHint">Enter your name</string>
+    <string name="profileInfo">Profile Info</string>
+    <string name="profile_headline">setUp your profile and Images</string>
+
+    // Profile Information
+    <string name="profile_info"> Profile Details</string>
+    <string name="userName">UserName </string>
+    <string name="email">Email </string>
+    <string name="userType">UserType </string>
+    <string name="freeText">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Donec maximus tortor sit amet nibh hendrerit commodo.
+        Nulla non sapien nulla.Vivamus scelerisque massa at augue commodo, vitae gravida augue euismod.Suspendisse aliquet mi id urna ultrices, nec rutrum elit maximus.Morbi lobortis faucibus dolor, eget pellentesque augue lobortis at.Maecenas nec venenatis ante. </string>
+
+    //Contact_Us
+    <string name="emailHint">Enter Your Email Address </string>
+    <string name="concern">Concern your problem </string>
+    <string name="problem">problem</string>
+    <string name="submit">Submit</string>
+
+    //Help and FAQ
+    <string name="Tx1">Help &amp; FAQ</string>
+    <string name="Tx2">Frequently Asked Questions</string>
+    <string name="Tx3">Q: What is the purpose of this app?</string>
+    <string name="Tx4">A: The purpose of this app is to…</string>
+    <string name="Tx5">Q: How do I use this feature?</string>
+    <string name="Tx6">A: To use this feature, you need to…</string>
+    <string name="Tx7">Contact Us</string>
+    <string name="Tx8">If you have any questions or feedback, please contact us at:</string>
+    <string name="Tx9">support@example.com</string>
+
+    // product_item
+    <string name="add_product">Add Product</string>
+    <string name="update_product">Update Product</string>
+    <string name="product_name">Enter Product Name</string>
+    <string name="quantity">Enter quantity</string>
+    <string name="price">Enter price</string>
+    <string name="description">Enter product description</string>
+    <string name="select_img">Select Image</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
