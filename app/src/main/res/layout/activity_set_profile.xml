@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img"
+    android:padding="30dp"
+    tools:context=".userI.SetProfile">
+
+    <ImageView
+        android:id="@+id/ProfileImage"
+        android:layout_width="150sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/profile_img"
+        android:scaleType="centerCrop"
+        android:layout_height="150dp"/>
+
+    <TextView
+        android:id="@+id/text_headline"
+        android:layout_below="@id/ProfileImage"
+        android:layout_centerHorizontal="true"
+        style="@style/headline_style"
+        android:text="@string/profileInfo"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/text_bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_headline"
+        android:textColor="@color/black"
+        android:fontFamily="@font/lexend_deca"
+        android:layout_centerHorizontal="true"
+        android:text="@string/profile_headline"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        style="@style/edit_style"
+        android:id="@+id/userName"
+        android:hint="@string/nameHint"
+        android:layout_below="@id/text_bottom"
+        android:layout_marginTop="35dp"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        style="@style/edit_style"
+        android:layout_below="@id/userName"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/setupProfile"
+        style="@style/button_style"
+        android:layout_below="@id/spinner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="@string/continueP" />
+
+    <ProgressBar
+        android:id="@+id/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_bottom"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"/>
+
+</RelativeLayout>

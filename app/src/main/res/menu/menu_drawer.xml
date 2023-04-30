@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="@string/Home"
+            android:actionLayout="@layout/menu_item_layout"/>
+        <item
+            android:id="@+id/add_product"
+            android:icon="@drawable/add_product"
+            android:title="@string/add_p" />
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/profile"
+            android:title="@string/Profile"
+            android:actionLayout="@layout/menu_item_layout"/>
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/help"
+            android:title="@string/help" />
+        <item
+            android:id="@+id/contact"
+            android:icon="@drawable/contact"
+            android:title="@string/Contact" />
+    </group>
+    <item android:title="Communication">
+        <menu>
+            <group>
+            <item android:title="@string/share"
+                android:id="@+id/share"
+                android:icon="@drawable/share"/>
+
+            <item android:title="@string/rate"
+                android:id="@+id/rate"
+                android:icon="@drawable/rate"/>
+
+            </group>
+        </menu>
+    </item>
+        <item android:title="User">
+            <menu>
+                <group>
+                <item android:title="Logout"
+                    android:id="@+id/logout"
+                    android:icon="@drawable/logout"/>
+                </group>
+            </menu>
+        </item>
+
+
+</menu>

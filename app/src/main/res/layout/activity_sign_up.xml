@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="30dp"
+    android:background="@drawable/img"
+    android:orientation="vertical"
+    tools:context=".userI.SignUp">
+
+    <TextView
+        style="@style/headline_style"
+        android:layout_marginBottom="30dp"
+        android:text="@string/signUpMsg" />
+
+    <TextView
+        style="@style/hintStyle"
+        android:fontFamily="@font/lexend_deca"
+        android:text="@string/username2Hint" />
+
+    <EditText
+        android:id="@+id/username"
+        style="@style/edit_style"
+        android:fontFamily="@font/lexend_deca"
+        android:hint="@string/usernameHint"/>
+
+    <TextView
+        style="@style/hintStyle"
+        android:fontFamily="@font/lexend_deca"
+        android:text="@string/passwordHint" />
+
+    <EditText
+        android:id="@+id/password"
+        style="@style/edit_style"
+        android:inputType="textPassword"
+        android:fontFamily="@font/lexend_deca"
+        android:hint="@string/passwordHint"/>
+
+    <TextView
+        style="@style/hintStyle"
+        android:fontFamily="@font/lexend_deca"
+        android:text="@string/c_passwordHint" />
+
+    <EditText
+        android:id="@+id/conform_password"
+        style="@style/edit_style"
+        android:inputType="textPassword"
+        android:fontFamily="@font/lexend_deca"
+        android:hint="@string/c_passwordHint"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/signUp"
+        android:fontFamily="@font/lexend_deca"
+        style="@style/button_style"
+        android:text="@string/signUp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lexend_deca"
+            android:textColor="@color/black"
+            android:text="@string/loginRedirect"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/redirectLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lexend_deca"
+            android:text="@string/Login"
+            android:textColor="@color/btnStart"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "971044799338",
+    "project_id": "drawa-47715",
+    "storage_bucket": "drawa-47715.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:971044799338:android:89d5147031cfe34fc71b13",
+        "android_client_info": {
+          "package_name": "com.example.drawa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "971044799338-ga2t5sshblp5mrt0mtd401k97d6a8q41.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3LmgB1F9viwfnTlPiAo4hiFQ3Zq4_iMU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "971044799338-ga2t5sshblp5mrt0mtd401k97d6a8q41.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

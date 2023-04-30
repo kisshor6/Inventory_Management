@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="30dp"
+    android:background="@drawable/img"
+    android:orientation="vertical"
+    tools:context=".userI.SignUp">
+
+    <TextView
+        style="@style/headline_style"
+        android:text="@string/loginMsg"
+        android:layout_marginBottom="40dp"/>
+
+    <TextView
+        style="@style/hintStyle"
+        android:text="@string/username2Hint" />
+
+    <EditText
+        android:id="@+id/username"
+        style="@style/edit_style"
+        android:hint="@string/usernameHint"/>
+
+    <TextView
+        style="@style/hintStyle"
+        android:text="@string/loginPassword" />
+
+    <EditText
+        android:id="@+id/password"
+        style="@style/edit_style"
+        android:inputType="textPassword"
+        android:hint="@string/loginPassword"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/loginUser"
+        style="@style/button_style"
+        android:text="@string/Login"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:text="@string/SignUpRedirect"/>
+
+        <TextView
+            android:id="@+id/redirectSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:fontFamily="@font/lexend_deca"
+            android:textColor="@color/btnEnd"
+            android:text="@string/signUp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

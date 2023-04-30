@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    android:background="@drawable/img"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        style="@style/headline_style"
+        android:text="@string/concern"
+        android:layout_marginBottom="40dp"/>
+
+    <TextView
+        android:text="@string/email"
+        style="@style/hintStyle"/>
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:inputType="textEmailAddress"
+        android:hint="@string/emailHint"
+        style="@style/edit_style"/>
+
+    <TextView
+        android:text="@string/problem"
+        style="@style/hintStyle"/>
+
+    <EditText
+        android:id="@+id/problemEditText"
+        android:inputType="textMultiLine"
+        android:gravity="start"
+        android:hint="@string/concern"
+        android:lines="5"
+        style="@style/edit_style"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submitProblem"
+        android:text="@string/submit"
+        style="@style/button_style"/>
+
+</LinearLayout>

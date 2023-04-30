@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".DrawableItems.add_product_items">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                style="@style/headline_style"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/add_product"
+                android:layout_marginBottom="30dp"/>
+
+            <ImageView
+                android:id="@+id/productImageView"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/selectImageButton"
+                style="@style/button_style"
+                android:layout_marginTop="10dp"
+                android:text="@string/select_img" />
+
+            <EditText
+                android:id="@+id/productNameEditText"
+                style="@style/edit_style"
+                android:layout_marginTop="14dp"
+                android:hint="@string/product_name" />
+
+            <EditText
+                android:id="@+id/quantityEditText"
+                style="@style/edit_style"
+                android:hint="@string/quantity"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/priceEditText"
+                style="@style/edit_style"
+                android:hint="@string/price"
+                android:inputType="numberDecimal" />
+
+            <EditText
+                android:id="@+id/descriptionEditText"
+                style="@style/edit_style"
+                android:gravity="start"
+                android:hint="@string/description"
+                android:inputType="textMultiLine"
+                android:minLines="3"
+                android:maxLines="5" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/addProductButton"
+                style="@style/button_style"
+                android:layout_marginTop="10dp"
+                android:text="@string/add_product" />
+
+        </LinearLayout>
+
+    </ScrollView>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        android:layout_gravity="center"/>
+
+</FrameLayout>

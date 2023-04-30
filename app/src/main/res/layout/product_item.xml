@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/productImageView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/img_1"
+            android:scaleType="centerCrop" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:paddingStart="16dp">
+
+        <TextView
+            android:id="@+id/productNameTextView"
+            style="@style/product_item"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@color/black"
+            android:text="@string/product_name"/>
+
+        <TextView
+            android:id="@+id/quantityTextView"
+            style="@style/product_item"
+            android:text="@string/quantity" />
+
+        <TextView
+            android:id="@+id/priceTextView"
+            style="@style/product_item"
+            android:text="@string/price" />
+
+        <TextView
+            android:id="@+id/descriptionTextView"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:text="@string/description"
+            style="@style/product_item"/>
+
+    </LinearLayout>
+
+</LinearLayout>
